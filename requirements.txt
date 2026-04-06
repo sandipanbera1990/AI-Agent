@@ -1,0 +1,8 @@
+langchain==0.1.13
+langchain-openai==0.1.1
+SQLAlchemy==2.0.29
+pymysql==1.1.0
+boto3==1.34.79
+requests
+langchain-chroma
+chromadb
