@@ -2,7 +2,7 @@
   <EventFiltering>
 
     <NetworkConnect onmatch="include">
-  <Image condition="end with">.exe</Image>  
+  <Image condition="end with">chrome.exe</Image>  
 </NetworkConnect>
   </EventFiltering>
 </Sysmon>
