@@ -1,5 +1,8 @@
-<Sysmon schemaversion="4.82">
+<Sysmon schemaversion="4.90">
   <EventFiltering>
-    <NetworkConnect onmatch="include" />
+
+    <NetworkConnect onmatch="include">
+  <Image condition="end with">.exe</Image>  
+</NetworkConnect>
   </EventFiltering>
 </Sysmon>
